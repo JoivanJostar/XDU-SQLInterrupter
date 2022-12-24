@@ -1,0 +1,11 @@
+lex.l //词法文件
+yacc.y //语法文件
+yacc.tab.h  //由工具自动生成
+yacc.tab.cpp //由工具自动生成
+lex.flex.cpp //由工具自动生成
+
+main.cpp //主模块
+ZYF_SQL.h //语义头文件
+ZYF_SQL.cpp //包含所有的语义函数
+
+sys.txt //需要复制一份放在生成的可执行文件目录下，此文件作为DBMS的元数据文件
